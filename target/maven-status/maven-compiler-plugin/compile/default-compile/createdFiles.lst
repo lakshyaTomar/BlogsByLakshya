@@ -8,6 +8,5 @@ com/blogservice/service/BlogService.class
 com/blogservice/model/Blog.class
 com/blogservice/dto/BlogDTO.class
 com/blogservice/dto/ErrorResponse.class
-com/blogservice/config/SwaggerConfig.class
 com/blogservice/controller/BlogController.class
 com/blogservice/dto/BlogResponse$BlogResponseBuilder.class

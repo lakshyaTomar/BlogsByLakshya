@@ -1,7 +1,6 @@
 /home/runner/workspace/src/main/java/com/blogservice/dto/ErrorResponse.java
 /home/runner/workspace/src/main/java/com/blogservice/dto/BlogDTO.java
 /home/runner/workspace/src/main/java/com/blogservice/exception/BlogNotFoundException.java
-/home/runner/workspace/src/main/java/com/blogservice/config/SwaggerConfig.java
 /home/runner/workspace/src/main/java/com/blogservice/BlogServiceApplication.java
 /home/runner/workspace/src/main/java/com/blogservice/service/impl/BlogServiceImpl.java
 /home/runner/workspace/src/main/java/com/blogservice/model/Blog.java
