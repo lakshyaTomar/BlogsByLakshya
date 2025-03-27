@@ -16,15 +16,13 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Global exception handler to manage exceptions across the application.
- */
+//Global exception handler to manage exceptions across the application.
+
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
-    /**
-     * Handle BlogNotFoundException.
-     */
+//    Handle BlogNotFoundException.
+
     @ExceptionHandler(BlogNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleBlogNotFoundException(
             BlogNotFoundException ex, WebRequest request) {
@@ -40,9 +38,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
     }
     
-    /**
-     * Handle validation errors.
-     */
+//   Handle validation errors.
+
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(
             MethodArgumentNotValidException ex,
@@ -68,9 +65,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
     }
     
-    /**
-     * Handle generic exceptions.
-     */
+//    Handle generic exceptions.
+
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGlobalException(
             Exception ex, WebRequest request) {

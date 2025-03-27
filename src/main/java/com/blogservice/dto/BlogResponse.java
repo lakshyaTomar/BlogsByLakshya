@@ -7,10 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/**
- * DTO class for returning blog data to clients.
- * Includes all the information that should be visible to API consumers.
- */
+//DTO class for returning blog data to clients.
+//Includes all the information that should be visible to API consumers.
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

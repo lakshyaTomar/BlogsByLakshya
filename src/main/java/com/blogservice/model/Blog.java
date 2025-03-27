@@ -9,9 +9,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-/**
- * Entity class representing a blog post in the database.
- */
+//Entity class representing a blog post in the database.
+
 @Entity
 @Table(name = "blogs")
 @Data

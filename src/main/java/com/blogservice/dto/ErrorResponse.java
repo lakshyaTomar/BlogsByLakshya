@@ -6,9 +6,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/**
- * DTO class for returning error information to clients.
- */
+//DTO class for returning error information to clients.
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

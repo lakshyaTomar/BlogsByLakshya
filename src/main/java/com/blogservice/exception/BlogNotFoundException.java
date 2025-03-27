@@ -1,8 +1,7 @@
 package com.blogservice.exception;
 
-/**
- * Exception thrown when a blog post is not found.
- */
+//Exception thrown when a blog post is not found.
+
 public class BlogNotFoundException extends RuntimeException {
     
     public BlogNotFoundException(String message) {

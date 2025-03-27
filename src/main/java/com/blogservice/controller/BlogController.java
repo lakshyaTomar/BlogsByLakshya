@@ -14,9 +14,8 @@ import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
 
-/**
- * REST controller for blog operations.
- */
+//REST controller for blog operations
+
 @RestController
 @RequestMapping("/api/blogs")
 @RequiredArgsConstructor

@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-/**
- * Data Transfer Object for blog operations.
- * Used for creating and updating blog posts.
- */
+//Data Transfer Object for blog operations.
+//Used for creating and updating blog posts
+
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
