@@ -11,9 +11,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-/**
- * Implementation of the BlogService interface.
- */
+//Implementation of the BlogService interface.
+
+
 @Service
 @RequiredArgsConstructor
 public class BlogServiceImpl implements BlogService {
@@ -82,12 +82,9 @@ public class BlogServiceImpl implements BlogService {
                 .map(this::mapToResponse);
     }
     
-    /**
-     * Maps a Blog entity to a BlogResponse DTO.
-     * 
-     * @param blog the blog entity
-     * @return the blog response DTO
-     */
+   //Maps a Blog entity to a BlogResponse DTO.
+
+
     private BlogResponse mapToResponse(Blog blog) {
         return BlogResponse.builder()
                 .id(blog.getId())
